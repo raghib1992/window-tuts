@@ -51,7 +51,7 @@ PS C:\Users\raghi>
 
 # Hash table
 ```
-$empNumber = @{"John Doe" = 12345; "Bob Jones" = 12346; "Sally Simth" = 12347}
+PS C:\Users\raghi> $empNumber = @{"John Doe" = 12345; "Bob Jones" = 12346; "Sally Simth" = 12347}
 
 PS C:\Users\raghi> $empNumber
 
@@ -60,7 +60,6 @@ Name                           Value
 Bob Jones                      12346
 Sally Simth                    12347
 John Doe                       12345
-
 
 PS C:\Users\raghi> $empNumber["Bob Jones"]
 12346
@@ -73,7 +72,6 @@ Bob Jones                      889966
 Sally Simth                    12347
 John Doe                       12345
 
-
 PS C:\Users\raghi> $empNumber["New Employee"] = 456782
 PS C:\Users\raghi> $empNumber
 
@@ -84,7 +82,6 @@ Sally Simth                    12347
 John Doe                       12345
 New Employee                   456782
 
-
 PS C:\Users\raghi> $empNumber.Remove("New Employee")
 PS C:\Users\raghi> $empNumber
 
@@ -93,7 +90,6 @@ Name                           Value
 Bob Jones                      889966
 Sally Simth                    12347
 John Doe                       12345
-
 
 PS C:\Users\raghi>
 ```
