@@ -15,4 +15,5 @@ Get-ChildItem -Path C:\Test -File | Sort-Object -Property Length
 ```
 get-help where -online
 get-service | where status -eq "Stopped"
+Get-ChildItem | where {($_.name -like "D*") -and ($_.name -like "*s")}
 ```
