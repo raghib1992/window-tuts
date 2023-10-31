@@ -28,3 +28,10 @@ function add-something
 
 $result = add-something 123 456
 ```
+```
+function Get-DirInfo ($dir) {
+    Get-ChildItem $dir -Recurse | Measure-Object -Property length -Sum
+}
+
+[math]::Round((Get-DirInfo C:\Users\10728749\raghib\aws-devops).sum/1GB,2)
+```
