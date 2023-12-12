@@ -28,7 +28,7 @@ PS C:\Users\raghi> $a= 'My name is $b'
 PS C:\Users\raghi> $a
 My name is $b
 ```
-# COmparision
+# Comparision
 ### Integer
 ```
 PS C:\Users\raghi> 12 -eq 37

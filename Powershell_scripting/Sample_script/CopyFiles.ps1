@@ -1,8 +1,10 @@
-﻿
-#Parameters
-#The script should take 2 arguments $source and $destination (for the source and destination folders).
+﻿# Parameters
+# The script should take 2 arguments $source and $destination (for the source and destination folders).
 
-param([string]$source="C:\Users\10728749\raghib\temp\source", [string]$destination="C:\Users\10728749\raghib\temp\destination")
+param(
+    [string]$source="C:\Users\10728749\raghib\temp\source"
+    ,[string]$destination="C:\Users\10728749\raghib\temp\destination"
+)
 
 #Functions
 #2)	Functions
@@ -38,9 +40,6 @@ function DisplayFolderStatistics([string]$path){
     $stats.Size= $totals.Sum
     return $stats
 }
-
-
-
 
 #3)	Main processing
 
